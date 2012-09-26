@@ -41,8 +41,8 @@
             <default_setup>
                 <connection>
                     <host><![CDATA[localhost]]></host>
-                    <username><![CDATA[sencha_hackathon]]></username>
-                    <password><![CDATA[sencha_hackathon]]></password>
+                    <username><![CDATA[root]]></username>
+                    <password><![CDATA[dev]]></password>
                     <dbname><![CDATA[sencha_hackathon]]></dbname>
                     <initStatements><![CDATA[SET NAMES utf8]]></initStatements>
                     <model><![CDATA[mysql4]]></model>

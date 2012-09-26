@@ -13,7 +13,7 @@
         </helpers>
         <models>
             <senchahack_sencha>
-                <class>Senchahack_Sencha_Model</class>                
+                <class>Senchahack_Sencha_Model</class>
             </senchahack_sencha>
         </models>
     </global>
@@ -28,6 +28,13 @@
                     <frontName>sencha</frontName>
                 </args>
             </sencha>
-        </routers>  
+        </routers>
+        <layout>
+            <updates>
+                <catalog>
+                    <file>sencha.xml</file>
+                </catalog>
+            </updates>
+        </layout>
     </frontend>
 </config>
