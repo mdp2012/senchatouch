@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Senchahack_Sencha>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </Senchahack_Sencha>
+    </modules>
+</config>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Senchahack_Sencha>
+            <version>0.0.1</version>
+        </Senchahack_Sencha>
+    </modules>
+    <global>
+        <helpers>
+            <senchahack_sencha>
+                <class>Senchahack_Sencha_Helper</class>
+            </senchahack_sencha>
+        </helpers>
+        <models>
+            <senchahack_sencha>
+                <class>Senchahack_Sencha_Model</class>                
+            </senchahack_sencha>
+        </models>
+    </global>
+    <frontend>
+        <routers>
+            <sencha>
+                <use>standard</use>
+                <args>
+                    <modules>
+                        <sencha>Senchahack_Sencha</sencha>
+                    </modules>
+                    <frontName>sencha</frontName>
+                </args>
+            </sencha>
+        </routers>  
+    </frontend>
+</config>
