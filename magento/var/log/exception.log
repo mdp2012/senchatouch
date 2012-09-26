@@ -1,0 +1,80 @@
+2012-09-26T14:01:35+00:00 ERR (3): 
+exception 'Exception' with message '$_FILES array is empty' in /Users/robinmueller/Development/Sencha/magento/lib/Varien/File/Uploader.php:467
+Stack trace:
+#0 /Users/robinmueller/Development/Sencha/magento/lib/Varien/File/Uploader.php(149): Varien_File_Uploader->_setUploadFileId('image')
+#1 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/Model/Category/Attribute/Backend/Image.php(57): Varien_File_Uploader->__construct('image')
+#2 [internal function]: Mage_Catalog_Model_Category_Attribute_Backend_Image->afterSave(Object(Mage_Catalog_Model_Category))
+#3 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(657): call_user_func_array(Array, Array)
+#4 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1648): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterSa...', Array)
+#5 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/Model/Resource/Category.php(235): Mage_Eav_Model_Entity_Abstract->_afterSave(Object(Mage_Catalog_Model_Category))
+#6 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1124): Mage_Catalog_Model_Resource_Category->_afterSave(Object(Mage_Catalog_Model_Category))
+#7 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Abstract.php(318): Mage_Eav_Model_Entity_Abstract->save(Object(Mage_Catalog_Model_Category))
+#8 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/data/catalog_setup/data-install-1.6.0.0.php(41): Mage_Core_Model_Abstract->save()
+#9 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(624): include('/Users/robinmue...')
+#10 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(391): Mage_Core_Model_Resource_Setup->_modifyResourceDb('data-install', '', '1.6.0.0.14')
+#11 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(289): Mage_Core_Model_Resource_Setup->_installData('1.6.0.0.14')
+#12 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(269): Mage_Core_Model_Resource_Setup->applyDataUpdates()
+#13 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/App.php(351): Mage_Core_Model_Resource_Setup::applyAllDataUpdates()
+#14 /Users/robinmueller/Development/Sencha/magento/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/robinmueller/Development/Sencha/magento/index.php(87): Mage::run('', 'store')
+#16 {main}
+2012-09-26T14:01:35+00:00 ERR (3): 
+exception 'Exception' with message '$_FILES array is empty' in /Users/robinmueller/Development/Sencha/magento/lib/Varien/File/Uploader.php:467
+Stack trace:
+#0 /Users/robinmueller/Development/Sencha/magento/lib/Varien/File/Uploader.php(149): Varien_File_Uploader->_setUploadFileId('thumbnail')
+#1 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/Model/Category/Attribute/Backend/Image.php(57): Varien_File_Uploader->__construct('thumbnail')
+#2 [internal function]: Mage_Catalog_Model_Category_Attribute_Backend_Image->afterSave(Object(Mage_Catalog_Model_Category))
+#3 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(657): call_user_func_array(Array, Array)
+#4 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1648): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterSa...', Array)
+#5 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/Model/Resource/Category.php(235): Mage_Eav_Model_Entity_Abstract->_afterSave(Object(Mage_Catalog_Model_Category))
+#6 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1124): Mage_Catalog_Model_Resource_Category->_afterSave(Object(Mage_Catalog_Model_Category))
+#7 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Abstract.php(318): Mage_Eav_Model_Entity_Abstract->save(Object(Mage_Catalog_Model_Category))
+#8 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/data/catalog_setup/data-install-1.6.0.0.php(41): Mage_Core_Model_Abstract->save()
+#9 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(624): include('/Users/robinmue...')
+#10 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(391): Mage_Core_Model_Resource_Setup->_modifyResourceDb('data-install', '', '1.6.0.0.14')
+#11 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(289): Mage_Core_Model_Resource_Setup->_installData('1.6.0.0.14')
+#12 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(269): Mage_Core_Model_Resource_Setup->applyDataUpdates()
+#13 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/App.php(351): Mage_Core_Model_Resource_Setup::applyAllDataUpdates()
+#14 /Users/robinmueller/Development/Sencha/magento/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/robinmueller/Development/Sencha/magento/index.php(87): Mage::run('', 'store')
+#16 {main}
+2012-09-26T14:01:35+00:00 ERR (3): 
+exception 'Exception' with message '$_FILES array is empty' in /Users/robinmueller/Development/Sencha/magento/lib/Varien/File/Uploader.php:467
+Stack trace:
+#0 /Users/robinmueller/Development/Sencha/magento/lib/Varien/File/Uploader.php(149): Varien_File_Uploader->_setUploadFileId('image')
+#1 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/Model/Category/Attribute/Backend/Image.php(57): Varien_File_Uploader->__construct('image')
+#2 [internal function]: Mage_Catalog_Model_Category_Attribute_Backend_Image->afterSave(Object(Mage_Catalog_Model_Category))
+#3 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(657): call_user_func_array(Array, Array)
+#4 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1648): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterSa...', Array)
+#5 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/Model/Resource/Category.php(235): Mage_Eav_Model_Entity_Abstract->_afterSave(Object(Mage_Catalog_Model_Category))
+#6 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1124): Mage_Catalog_Model_Resource_Category->_afterSave(Object(Mage_Catalog_Model_Category))
+#7 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Abstract.php(318): Mage_Eav_Model_Entity_Abstract->save(Object(Mage_Catalog_Model_Category))
+#8 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/data/catalog_setup/data-install-1.6.0.0.php(53): Mage_Core_Model_Abstract->save()
+#9 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(624): include('/Users/robinmue...')
+#10 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(391): Mage_Core_Model_Resource_Setup->_modifyResourceDb('data-install', '', '1.6.0.0.14')
+#11 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(289): Mage_Core_Model_Resource_Setup->_installData('1.6.0.0.14')
+#12 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(269): Mage_Core_Model_Resource_Setup->applyDataUpdates()
+#13 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/App.php(351): Mage_Core_Model_Resource_Setup::applyAllDataUpdates()
+#14 /Users/robinmueller/Development/Sencha/magento/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/robinmueller/Development/Sencha/magento/index.php(87): Mage::run('', 'store')
+#16 {main}
+2012-09-26T14:01:35+00:00 ERR (3): 
+exception 'Exception' with message '$_FILES array is empty' in /Users/robinmueller/Development/Sencha/magento/lib/Varien/File/Uploader.php:467
+Stack trace:
+#0 /Users/robinmueller/Development/Sencha/magento/lib/Varien/File/Uploader.php(149): Varien_File_Uploader->_setUploadFileId('thumbnail')
+#1 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/Model/Category/Attribute/Backend/Image.php(57): Varien_File_Uploader->__construct('thumbnail')
+#2 [internal function]: Mage_Catalog_Model_Category_Attribute_Backend_Image->afterSave(Object(Mage_Catalog_Model_Category))
+#3 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(657): call_user_func_array(Array, Array)
+#4 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1648): Mage_Eav_Model_Entity_Abstract->walkAttributes('backend/afterSa...', Array)
+#5 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/Model/Resource/Category.php(235): Mage_Eav_Model_Entity_Abstract->_afterSave(Object(Mage_Catalog_Model_Category))
+#6 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Eav/Model/Entity/Abstract.php(1124): Mage_Catalog_Model_Resource_Category->_afterSave(Object(Mage_Catalog_Model_Category))
+#7 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Abstract.php(318): Mage_Eav_Model_Entity_Abstract->save(Object(Mage_Catalog_Model_Category))
+#8 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Catalog/data/catalog_setup/data-install-1.6.0.0.php(53): Mage_Core_Model_Abstract->save()
+#9 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(624): include('/Users/robinmue...')
+#10 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(391): Mage_Core_Model_Resource_Setup->_modifyResourceDb('data-install', '', '1.6.0.0.14')
+#11 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(289): Mage_Core_Model_Resource_Setup->_installData('1.6.0.0.14')
+#12 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/Resource/Setup.php(269): Mage_Core_Model_Resource_Setup->applyDataUpdates()
+#13 /Users/robinmueller/Development/Sencha/magento/app/code/core/Mage/Core/Model/App.php(351): Mage_Core_Model_Resource_Setup::applyAllDataUpdates()
+#14 /Users/robinmueller/Development/Sencha/magento/app/Mage.php(683): Mage_Core_Model_App->run(Array)
+#15 /Users/robinmueller/Development/Sencha/magento/index.php(87): Mage::run('', 'store')
+#16 {main}
