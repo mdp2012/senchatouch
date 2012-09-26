@@ -1,4 +1,4 @@
-Ext.define("mage.view.Main", {
+Ext.define("MagentoSenchaApp.view.Main", {
     extend: 'Ext.tab.Panel',
     requires: [
         'Ext.TitleBar',

@@ -1,5 +1,5 @@
 Ext.application({
-    name: 'mage',
+    name: 'MagentoSenchaApp',
 
     requires: [
         'Ext.MessageBox'
@@ -30,7 +30,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('mage.view.Main'));
+        Ext.Viewport.add(Ext.create('MagentoSenchaApp.view.Main'));
     },
 
     onUpdated: function() {

@@ -2,7 +2,7 @@
     /**
      * The application's namespace, used by Sencha Command to generate classes
      */
-    "name": "mage",
+    "name": "MagentoSenchaApp",
 
     /**
      * The file path to this application's front HTML document, relative to this app.json file
@@ -130,5 +130,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "36579810-07ed-11e2-b723-8fd5cc60492e"
+    "id": "15f396c0-07fa-11e2-9364-63f0c31d04ed"
 }
