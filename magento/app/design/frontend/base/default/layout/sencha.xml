@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <sencha_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template>sencha/layout.phtml</template></action>
+        </reference>
+    </sencha_index_index>
+</layout>
